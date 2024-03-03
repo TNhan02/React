@@ -1,0 +1,28 @@
+.login-page {
+  display: flex;
+  justify-content: space-around;
+}
+
+.login-pic {
+  float: left;
+  flex: 1;
+  border-style: solid black;
+  outline-color: black;
+}
+
+.login-form {
+  text-align: center;
+  float: right;
+  flex: 1;
+  padding: 5px;
+  margin: auto;
+  border-width: 5cm;
+  border: 5px solid black;
+  background-color:lightblue;
+}
+
+.field {
+  padding: 5px;
+  border-style: solid black;
+  outline-color: black;
+}
