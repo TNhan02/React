@@ -28,6 +28,8 @@ const useAuth = () => {
     // Logout
     const logout = () => {
         setUser({ ...user, token: null });
+        localStorage.removeItem(TOKEN_KEY);
+        localStorage.removeItem(USERDATA_KEY);
         window.location.href = "/";
     }
 

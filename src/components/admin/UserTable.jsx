@@ -177,7 +177,7 @@ const UserTable = () => {
         (
             <React.Fragment>
                 <div className="dialog-row">
-                    <Button label="X" icon="pi pi-times" className="p-button-outlined" style={{ borderRadius: "10px", color: "black", fontWeight: "bold" }} onClick={hideDialog} />
+                    <Button icon="pi pi-times" className="p-button-outlined" style={{ borderRadius: "10px", color: "black", fontWeight: "bold" }} onClick={hideDialog} />
                     <Button
                         label="Save"
                         className="pi-button-text"

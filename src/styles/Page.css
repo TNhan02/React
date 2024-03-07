@@ -22,7 +22,9 @@
   flex-direction: column;
 }
 .p-tabmenu .p-menuitem-text {
-  margin-right: 10px; /* Adjust the spacing as needed */
+  font-size: large;
+  color:black;
+  margin-right: 10px;
 }
 .p-responsive {
   justify-content: space-between;
@@ -50,7 +52,7 @@
   display: flex;
   padding: 1mm;
   margin: 1mm;
-  border: solid black;
+  border:solid black;
   background-color: white;
 }
 
@@ -61,7 +63,6 @@
   font-size: 17px;
   font-weight: bold;
   color: black;
-  text-align: center;
 }
 .chart-container {
   overflow-x: scroll;
@@ -116,4 +117,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.confirmation-content {
+  display: flex;
+  border: 1cm;
+  background-color: antiquewhite;
 }

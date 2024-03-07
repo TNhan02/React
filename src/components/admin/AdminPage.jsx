@@ -7,7 +7,7 @@ import "../../styles/Page.css";
 
 const AdminPage = () => {
     return (
-        <div className="page">
+        <div>
             <AdminHeader />
             <Routes>
                 <Route path="users" element={<UserTable />} />
